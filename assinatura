@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinatura de E-mail</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .assinatura {
+            display: flex;
+            align-items: center;
+            width: 726.2px; /* Largura da imagem de fundo */
+            height: 311.4px; /* Altura da imagem de fundo */
+        }
+
+        .imagem-de-fundo {
+            width: 100%;
+            height: 100%;
+        }
+
+        .conteudo-exterior {
+            margin-left: auto;
+            text-align: right;
+            padding-right: 10px; /* Espaçamento entre a imagem de fundo e os ícones das redes sociais */
+        }
+
+        .rede-social {
+            display: block;
+            margin-bottom: 10px; /* Espaçamento entre os ícones das redes sociais */
+        }
+    </style>
+</head>
+<body>
+    <div class="assinatura">
+        <img class="imagem-de-fundo" src="https://i.postimg.cc/SQcg7rHW/Assinatura-de-E-MAIL-Teste-Suely-Z-Mellone.png" alt="Assinatura">
+        <div class="conteudo-exterior">
+            <a href="https://www.instagram.com/ssserviceesoftwares/" target="_blank" class="rede-social">
+                <img src="https://i.postimg.cc/VL2QZJpc/instagram.png" alt="Instagram" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com/company/ss-service-e-softwares/" target="_blank" class="rede-social">
+                <img src="https://i.postimg.cc/7LtTzf3C/Linkedin.png" alt="LinkedIn" width="30" height="30">
+            </a>
+            <a href="https://www.facebook.com/ssserviceesoftwares" target="_blank" class="rede-social">
+                <img src="https://i.postimg.cc/LsLH3t87/facebook.png" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://www.youtube.com/channel/UChwgXVeuKh7LcFJNW3HzXfg" target="_blank" class="rede-social">
+                <img src="https://i.postimg.cc/MT6hfVM1/youtube.png" alt="YouTube" width="30" height="30">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
